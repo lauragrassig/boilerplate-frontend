@@ -20,6 +20,7 @@
     "@vitejs/plugin-vue": "^4.2.3",
     "@vue/eslint-config-prettier": "^7.1.0",
     "eslint": "^8.39.0",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-vue": "^9.11.0",
     "git-commit-msg-linter": "^5.0.4",
     "husky": "^8.0.3",

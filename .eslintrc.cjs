@@ -6,12 +6,17 @@ module.exports = {
   'extends': [
     'plugin:vue/vue3-essential',
     'eslint:recommended',
-    '@vue/eslint-config-prettier/skip-formatting'
+    '@vue/eslint-config-prettier/skip-formatting',
+    'plugin:import/recommended'
   ],
   parserOptions: {
     ecmaVersion: 'latest'
   },
+  plugins: ["import"],
   rules: {
-    
-  }
+    "no-console": "error",
+    "no-duplicate-imports" : "error",
+    "no-template-curly-in-string" : "error",
+    "import/no-unresolved": [2, { ignore: ['^node:'] }]
+  },
 }
