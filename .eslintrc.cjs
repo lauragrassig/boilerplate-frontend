@@ -7,7 +7,7 @@ module.exports = {
     'plugin:vue/vue3-essential',
     'eslint:recommended',
     '@vue/eslint-config-prettier/skip-formatting',
-    'plugin:import/recommended'
+    'plugin:import/recommended',
   ],
   parserOptions: {
     ecmaVersion: 'latest'
@@ -17,6 +17,23 @@ module.exports = {
     "no-console": "error",
     "no-duplicate-imports" : "error",
     "no-template-curly-in-string" : "error",
-    "import/no-unresolved": [2, { ignore: ['^node:'] }]
+    "import/no-unresolved": [2, { ignore: ['^node:'] }],
+    "import/order": [
+      "error",
+      
+      {
+        "newlines-between": "always",        
+        "groups": [
+          "index",
+          "sibling",
+          "parent",
+          "internal",
+          "external",
+          "builtin",
+          "object",
+          "type"
+        ]
+      }
+    ]  
   },
 }
