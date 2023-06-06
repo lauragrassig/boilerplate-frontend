@@ -21,6 +21,7 @@ Ao utilizar esse boilerplate, os desenvolvedores podem economizar tempo na confi
     
     **"prettier/prettier":** configura o plugin "prettier" para que seja utilizado em conjunto com o Eslint, de forma que as regras de formatação definidas no Prettier sejam aplicadas automaticamente ao código. Nesse caso, define que a quebra de linha no final do arquivo deve ser determinada automaticamente pelo sistema operacional.
     
+		
     **"import/no-duplicates":** impede a importação de um mesmo módulo em mais de um lugar no código. Quando isso acontece, um erro será gerado. "import/no-unresolved": impede a importação de módulos inexistentes ou com nome incorreto. Quando isso acontece, um erro será gerado. Além disso, define que a verificação de nomes de módulos deve ser feita sem levar em conta a sensibilidade à caixa, ou seja, não difere entre letras maiúsculas e minúsculas.
     
     **"no-unused-vars"**: Ajuda a identificar variáveis não utilizadas em um código, ajudando a reduzir a quantidade de código morto e a aumentar a legibilidade do código.
