@@ -7,5 +7,5 @@
   "printWidth": 80,
   "trailingComma": "es5",
   "bracketSameLine": true,
-  "endOfLine": "lf"
+  "endOfLine": "auto"
 }
